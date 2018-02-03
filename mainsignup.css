@@ -1,0 +1,38 @@
+body
+{
+	margin-top: 25px;	 
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	margin-left: 100px;
+	background-image:url(images/demo/xBack.jpg.pagespeed.ic.ImEFqIVZzu.jpg);
+	background-size: 100%;
+}
+#mainbody
+{	
+	-webkit-box-flexible:1;
+}
+#maintable
+{
+	-webkit-box-flexible:1;
+	font-size: 30px;
+	-webkit-border-radius:25px;
+	border: 1px solid black;
+	-webkit-box-shadow:rgba(110,110,110,.7) 8px 8px 8px;
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:30px;
+	background-image:url(images/demo/xBack.jpg.pagespeed.ic.ImEFqIVZzu.jpg);
+}
+#header
+{
+	font-size: 40px;
+	padding-left: 40px;
+}
+	
+#row
+{
+	color:white;
+	margin-left: 20px;
+	margin-right: 20px;
+}

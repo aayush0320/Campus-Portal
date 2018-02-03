@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Campus Portal</title>
+	<link rel="stylesheet" type="text/css" href="mainsignup.css">
+	<script language="javascript">
+
+function checkEmail() {
+
+    var email1 = document.getElementByName('useremail');
+    var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+    if (!filter.test(email1.value)) {
+    alert('Please provide a valid email address');
+    email1.focus;
+    return false;
+ }
+}
+</script>
+</head>
+<body>
+<div id="mainbody">
+<div id="maindiv">
+	<div id="header">
+		<p>Sign Up Page</p>	
+	</div>
+	<div id="maintable">
+	<form name="f1" action="valid_signup.php" method="post">
+		<table>
+			<tr id="row">
+				<td> Name </td>
+				<td><input type="text" name="username"size="30"></td>
+			</tr>
+
+			<tr id="row">
+				<td> Enrollment No<span style="color:red">*</span> </td>
+				<td> <input type="text" name="userenrollment"size="30"></td>
+			</tr>
+
+			<tr id="row">
+				<td> E-mail </td>
+				<td> <input type="text" name="useremail" size="30" onClick="checkEmail()"></td>
+			</tr>
+
+			<tr id="row">
+				<td> Phone Number </td>
+				<td> <input type="text" name="userphone" size="30"></td> 
+			</tr>
+
+			<tr id="row">
+				<td> Password<span style="color:red">*</span> </td>
+				<td> <input type="password" size="30" name="userpassword"></td>
+			</tr>
+
+			<tr id="row">
+				<td> Confirm Password<span style="color:red">*</span> </td>
+				<td> <input type="password" size="30" name="ucpsw"></td>
+			</tr>
+
+			<tr id="row">
+				<td style="float:right;"> <input type="reset" name="resetbutton" value="Reset"></td>
+				<td style="padding-left:50px;"> <input type="submit" name="submitbutton" value="Submit"></td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</div>	
+</div	
+></body>
+</html>

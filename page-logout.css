@@ -1,0 +1,9 @@
+body
+{
+	padding-left: 350px; 
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-flexible:1;
+	-webkit-box-orient:vertical;
+}
+

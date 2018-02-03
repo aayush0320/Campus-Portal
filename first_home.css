@@ -1,0 +1,23 @@
+body
+{
+	display: -webkit-box;
+	-webkit-box-pack:center;
+	padding:0px;
+	margin-left:171px;
+	margin-right:171px;
+	background-repeat: no-repeat;
+}
+
+
+nav
+{
+	text-align: center;
+	float: left;
+	display:block;
+	padding: 10px;
+}
+
+section
+{
+	float: left;
+}

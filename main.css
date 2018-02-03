@@ -1,0 +1,67 @@
+body
+{
+	margin-top: 50px;
+	margin-top: 100px; 
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	background-image:url(images/demo/xBack.jpg.pagespeed.ic.ImEFqIVZzu.jpg);
+	background-size: 100%;
+}
+#table
+{
+	-webkit-box-flexible:1;
+	-webkit-border-radius:25px;
+	border: 1px solid black;
+	background-image: url(images/demo/xBack.jpg.pagespeed.ic.ImEFqIVZzu.jpg);
+	-webkit-box-shadow:rgba(110,110,110,.7) 8px 8px 8px;
+	-webkit-box-opacity:rgba(110,110,110,0.075);
+}
+#maindiv
+{
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-orient:vertical;
+    max-width: 800px; 
+}
+#head
+{
+	font-size: 50px;
+	color: white;
+	font-family: sans-serif;
+}
+#block_password_signup
+{
+	display:inline-block;
+	color:#FFFFFF;
+}
+#title
+{
+	text-align: center;
+	padding-top:10px;
+}
+#table
+{
+	padding-left:10px; 
+	padding-right:10px;
+	padding-top:10px; 
+	padding-bottom:10px;
+	max-width: 350px;
+	max-height: 500px;
+	border:1px solid black;
+}
+#right1
+{
+	padding-left: 253px;	
+}
+#right
+{
+	padding-left: 180px;
+}
+#button
+{
+	padding-top:10px;
+	padding-bottom:10px;
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-flexible:1;
+}
